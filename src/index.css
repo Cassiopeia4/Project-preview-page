@@ -1,0 +1,92 @@
+/* ========== Dark Theme ========== */
+[data-theme="dark"] {
+  /* ===== Colors ===== */
+  --color-bg: #20242c;
+  --color-bg-soft: #1e293b;
+  --color-bg-card: #1b2535;
+
+  --color-text: #f3f4f6;
+  --color-text-soft: #d1d5db;
+  --color-text-muted: #9ca3af;
+
+  --color-primary: #4d90d0;
+  --color-primary-hover: #457bbb;
+  --color-primary-light: #13283d;
+
+  --color-success: #4ade80;
+  --color-warning: #f4a261;
+  --color-error: #f87171;
+
+  --color-border: #334155;
+
+  --color-button-bg: #243447;
+  --color-button-text: #f3f4f6;
+}
+
+/* ========== Light Theme ========== */
+[data-theme="light"] {
+  /* ===== Colors ===== */
+  --color-bg: #f5f7fa;
+  --color-bg-soft: #f5f7fa;
+  --color-bg-card: #ffffff;
+
+  --color-text: #1f2a37;
+  --color-text-soft: #4b5563;
+  --color-text-muted: #6b7280;
+
+  --color-primary: #2f679e;
+  --color-primary-hover: #2a4a8f;
+  --color-primary-light: #d9efef;
+
+  --color-success: #34c759;
+  --color-warning: #f4a261;
+  --color-error: #e63946;
+
+  --color-border: #d5dde5;
+
+  --color-button-bg: #f0f3f7;
+  --color-button-text: #1f2a37;
+}
+
+:root {
+  --font-family-header: 'Poppins', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-xxl: 96px;
+
+  /* Border Radius */
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows */
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+  /* Typography */
+  --font-size-h1: 48px;
+  --font-size-h2: 32px;
+  --font-size-h3: 24px;
+  --font-size-body: 16px;
+  --font-size-small: 14px;
+}
+
+@media (max-width: 820px) {
+  :root {
+    --font-size-h1: 30px;
+    --font-size-h2: 22px;
+    --font-size-h3: 18px;
+
+    --space-sm: 4px;
+    --space-md: 8px;
+    --space-lg: 16px;
+    --space-xl: 24px;
+    --space-xxl: 32px;
+  }
+}

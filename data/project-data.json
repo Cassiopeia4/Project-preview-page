@@ -1,0 +1,91 @@
+{
+  "project": {
+    "name": "VetClinic<sup>AI</sup>",
+    "subtitle": "Nowoczesna aplikacja do zarządzania kliniką weterynaryjną",
+    "description": "VetClinic<sup>AI</sup> to zaawansowana aplikacja zaprojektowana specjalnie dla klinik weterynaryjnych. Nasze rozwiązanie umożliwia kompleksowe zarządzanie pacjentami, harmonogramowanie wizyt, prowadzenie dokumentacji medycznej oraz obsługę finansową. Aplikacja została stworzona z myślą o usprawnieniu codziennej pracy weterynarzy i personelu klinicznego.",
+    "features": [
+      "Kompleksowa ewidencja zwierząt i ich właścicieli",
+      "Nowoczesny system umawiania wizyt",
+      "Cyfrowa dokumentacja medyczna",
+      "Moduły finansowe i fakturowanie",
+      "Zintegrowany system umawianai wizyt",
+      "Raporty i analityka biznesowa"
+    ]
+  },
+  "team": [
+    {
+      "id": 0,
+      "name": "Kacper Dąbrowski",
+      "roles": ["Kordynator"],
+      "description": "Nadzur przebiegu prac w projekcie, umawianie spotkań"
+    },
+    {
+      "id": 1,
+      "name": "Łukasz Szmołda",
+      "roles": ["Kierownik zespołu", "Backend Developer"],
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Franciszek Kanewski",
+      "roles": ["Lead Frontend Developer", "UI/UX Designer"],
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Tomasz Jańczak",
+      "roles": ["Frontend Developer", "UI/UX Designer"],
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Jakub Kwiatkowski",
+      "roles": ["Lead Backend Developer"],
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Kacper Smolarczyk",
+      "roles": ["Backend Developer"],
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "Krzysztof Cacko",
+      "roles": [],
+      "description": ""
+    }
+  ],
+  "meetings": [
+    {
+      "id": 1,
+      "date": "2025-11-13",
+      "title": "Spotkanie zapoznawcze",
+      "tasks": [
+        "Zatwierdzenie projektu",
+        "Umówienie cykliczynch spotkań",
+        "Podział ról"
+      ],
+      "duration": "30 min."
+    },
+    {
+      "id": 2,
+      "date": "2025-11-20",
+      "title": "Pierwsze spotkanie",
+      "tasks": [
+        "Utowrzenie repozytoriów",
+        "Utworzenie tablicy To-do"
+      ],
+      "duration": "35 min."
+    }
+  ],
+  "documentation": {
+    "description": "Sekcja dokumentacji projektu będzie uzupełniana w trakcie realizacji projektu.",
+    "sections": [
+      "Instrukcja użytkownika",
+      "Przewodnik wdrożeniowy",
+      "Wymagania funkcjonalne",
+      "Dokumentacja API"
+    ]
+  }
+}

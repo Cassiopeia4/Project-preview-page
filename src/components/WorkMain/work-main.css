@@ -1,0 +1,76 @@
+.timeline {
+    position: relative;
+    margin-top: var(--space-xl);
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 200px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--color-border);
+}
+
+.timeline-item {
+    display: flex;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-xl);
+    position: relative;
+}
+
+.timeline-date {
+    width: 160px;
+    text-align: right;
+    flex-shrink: 0;
+    padding-top: var(--space-xs);
+}
+
+.timeline-marker {
+    position: absolute;
+    left: 191px;
+    top: var(--space-sm);
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    border: 3px solid var(--color-border);
+    z-index: 1;
+}
+
+.timeline-content {
+    background-color: var(--color-bg-card);
+    border-radius: var(--radius-md);
+    padding: var(--space-sm);
+    box-shadow: var(--shadow-md);
+    flex: 1;
+    margin-left: var(--space-lg);
+}
+
+.timeline-title {
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.timeline-tasks {
+    list-style: none;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-xs);
+    color: var(--color-text);
+}
+
+.task-icon {
+    color: var(--color-success);
+}
+
+@media (max-width: 820px) {
+    .timeline-item{
+        flex-direction: column;
+    }
+}

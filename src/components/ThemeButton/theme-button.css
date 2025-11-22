@@ -1,0 +1,59 @@
+.theme-switch {
+    position: fixed;
+    right: 3vw;
+    bottom: 3vw;
+    display: inline-block;
+    width: 70px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #fbd786, #f7797d);
+    border-radius: 50px;
+    transition: background 0.6s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.sun, .moon {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    transition: all 0.6s ease;
+}
+
+.sun {
+    left: 6px;
+    background: #fff8c6;
+    box-shadow: 0 0 10px rgba(255, 230, 140);
+}
+
+.moon {
+    right: 6px;
+    background: #cdd6f4;
+    transform: translateY(-50%) scale(0);
+    box-shadow: 0 0 10px rgba(150, 170, 255, 0.3);
+}
+
+input:checked + .slider {
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+input:checked + .slider .sun {
+    transform: translateY(-50%) scale(0);
+    opacity: 0;
+}
+
+input:checked + .slider .moon {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+}
