@@ -27,4 +27,4 @@ export const router = createBrowserRouter([
             errorElement: <HomeLayout/>
         },
     ],
-    {basename: '/pz2025/zesp04'});
+    {basename: '/'});
