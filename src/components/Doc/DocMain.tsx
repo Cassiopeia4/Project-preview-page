@@ -10,7 +10,7 @@ export const DocMain = () => {
     if(!projectData) return <Loading />;
 
     return (
-        <section className="section fade-in-up hero">
+        <section className="section hero">
             <div className="container">
                 <div className="text-center mb-xl">
                     <h2 className="h2">Dokumentacja Projektu</h2>
@@ -19,7 +19,7 @@ export const DocMain = () => {
                     </p>
                 </div>
 
-                <div className="doc-placeholder">
+                <div className="doc-placeholder fade-in-up ">
                     <div className="doc-placeholder-icon">
                         📄
                     </div>

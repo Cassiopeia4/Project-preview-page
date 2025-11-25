@@ -17,7 +17,7 @@
       "id": 0,
       "name": "Kacper Dąbrowski",
       "roles": ["Kordynator"],
-      "description": "Nadzur przebiegu prac w projekcie, umawianie spotkań"
+      "description": "Nadzór przebiegu prac w projekcie, umawianie spotkań"
     },
     {
       "id": 1,
@@ -73,7 +73,7 @@
       "date": "2025-11-20",
       "title": "Pierwsze spotkanie",
       "tasks": [
-        "Utowrzenie repozytoriów",
+        "Utworzenie repozytoriów",
         "Utworzenie tablicy To-do"
       ],
       "duration": "35 min."
