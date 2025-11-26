@@ -57,6 +57,123 @@ section{
     padding: 0 var(--space-lg);
 }
 
+input, textarea {
+    width: 220px;
+    margin: var(--space-xs);
+    padding: var(--space-xs);
+    font-size: var(--font-size-body);
+    line-height: 16px;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: var(--color-text-muted);
+    opacity: 1;
+}
+
+input:hover:not(:disabled) {
+    border-color: var(--color-text-muted);
+}
+
+input:focus:not(:disabled) {
+    border-color: var(--color-primary);
+}
+
+button {
+    width: 220px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: var(--space-xs);
+    padding: var(--space-sm) var(--space-xl);
+    border-radius: 6px;
+
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+
+    cursor: pointer;
+    user-select: none;
+
+    border: 1px solid var(--color-border);
+    background-color: var(--color-button-bg);
+    color: var(--color-button-text);
+
+    transition:
+            background-color 0.25s ease,
+            color 0.25s ease,
+            border-color 0.25s ease,
+            box-shadow 0.25s ease,
+            transform 0.15s ease;
+}
+
+button:hover {
+    filter: brightness(0.92);
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+    filter: brightness(0.85);
+    box-shadow: none;
+}
+
+textarea {
+    width: 100%;
+    max-width: 850px;
+    height: 200px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+
+    padding: var(--space-sm);
+    border-radius: 6px;
+
+    font-size: var(--font-family-body);
+    line-height: 1.4;
+
+    background-color: var(--color-bg, var(--color-bg));
+    color: var(--color-text, var(--color-text));
+    border: 1px solid var(--color-border, var(--color-border));
+
+    resize: vertical;
+
+    transition:
+            border-color 0.25s ease,
+            box-shadow 0.25s ease,
+            background-color 0.25s ease;
+}
+
+.work-in-progress-btn:disabled {
+    background-color: var(--color-button-bg);
+    border: 1px solid var(--color-border);
+    color: transparent;
+    position: relative;
+    cursor: not-allowed;
+}
+
+.work-in-progress-btn:disabled::after {
+    content: "W trakcie przygotowywania";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-error);
+    font-weight: bold;
+    font-size: var(--font-size-small);
+    pointer-events: none;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;

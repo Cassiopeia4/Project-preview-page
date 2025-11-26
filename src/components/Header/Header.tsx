@@ -9,7 +9,8 @@ export const Header = () => {
         { name: '', label: 'O Projekcie' },
         { name: 'team', label: 'Zespół' },
         { name: 'work', label: 'Przebieg Prac' },
-        { name: 'documentation', label: 'Dokumentacja' }
+        { name: 'documentation', label: 'Dokumentacja' },
+        { name: 'contact', label: 'Kontakt' },
     ];
 
     const navigate = useNavigate();

@@ -1,0 +1,27 @@
+.contact-form-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-wrapper > form{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 720px;
+}
+
+.contact-form-wrapper > *{
+    flex-basis: 100%;
+}
+
+.contact-info-text>div{
+    margin: var(--space-xs);
+}
+
+@media (max-width: 820px) {
+    .contact-main{
+        text-align: center;
+    }
+    .contact-form-wrapper > form{
+        justify-content: space-around;
+    }
+}
