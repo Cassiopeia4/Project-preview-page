@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <script>
+        var redirect = '/' + location.pathname.replace(/^\//, '') + location.search + location.hash;
+        location.replace('/#' + redirect);
+    </script>
+</head>
+<body></body>
+</html>
