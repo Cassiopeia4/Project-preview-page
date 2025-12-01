@@ -22,13 +22,13 @@
     {
       "id": 1,
       "name": "Łukasz Szmołda",
-      "roles": ["Kierownik zespołu", "Backend Developer"],
+      "roles": ["Kierownik", "Backend Developer"],
       "description": ""
     },
     {
       "id": 2,
       "name": "Franciszek Kanewski",
-      "roles": ["Lead Frontend Developer", "UI/UX Designer", "Backend developer"],
+      "roles": ["Lead Frontend Developer", "UI/UX Designer", "Backend Developer"],
       "description": ""
     },
     {
