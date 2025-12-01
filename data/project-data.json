@@ -28,7 +28,7 @@
     {
       "id": 2,
       "name": "Franciszek Kanewski",
-      "roles": ["Lead Frontend Developer", "UI/UX Designer"],
+      "roles": ["Lead Frontend Developer", "UI/UX Designer", "Backend developer"],
       "description": ""
     },
     {
@@ -52,7 +52,7 @@
     {
       "id": 6,
       "name": "Krzysztof Cacko",
-      "roles": [],
+      "roles": ["Fullstack Developer"],
       "description": ""
     }
   ],
@@ -77,6 +77,17 @@
         "Utworzenie tablicy To-do"
       ],
       "duration": "35 min."
+    },
+    {
+      "id": 3,
+      "date": "2025-11-26",
+      "title": "Drugie spotkanie",
+      "tasks": [
+        "Przydzielenie pierwszych zadań",
+        "Research potrzebnych funkcjonalności",
+        "Kurs i wprowadzenie git-a"
+      ],
+      "duration": "90 min."
     }
   ],
   "documentation": {
