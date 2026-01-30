@@ -88,6 +88,59 @@
         "Kurs i wprowadzenie git-a"
       ],
       "duration": "90 min."
+    },
+    {
+      "id": 4,
+      "date": "2025-12-04",
+      "title": "Spotkanie stacjonarne",
+      "tasks": [
+        "Utworzenie MVP",
+        "Publikacja strony projektu",
+        "Kurs z C#"
+      ],
+      "duration": "120 min."
+    },
+    {
+      "id": 5,
+      "date": "2025-12-12",
+      "title": "Spotkanie zdalne",
+      "tasks": [
+        "Utworzenie i omowienie podstawowych wersji aplikacji",
+        "Przydzielenie kolejnych zadań",
+        "Kurs z tworzenia testów frontendowych"
+      ],
+      "duration": "80 min."
+    },
+    {
+      "id": 6,
+      "date": "2025-12-17",
+      "title": "Spotkanie zdalne",
+      "tasks": [
+        "Omówienie postępów projektu",
+        "Przydzielenie kolejnych zadań"
+      ],
+      "duration": "30 min."
+    },
+    {
+      "id": 7,
+      "date": "2025-01-14",
+      "title": "Spotkanie zdalne",
+      "tasks": [
+        "Wprowadzenie odckera do projektu",
+        "Przydzielenie kolejnych zadań"
+      ],
+      "duration": "30 min."
+    },
+    {
+      "id": 8,
+      "date": "2025-01-23",
+      "title": "Spotkanie stacjonarne",
+      "tasks": [
+        "Omówienie i wporwadzenie do dev-opsa",
+        "Przydzielenie kolejnych zadań",
+        "Wybór rozwiązania do funkcjonalności terminarza"
+      ],
+      "duration": "70 min."
     }
   ],
   "documentation": {
