@@ -69,6 +69,29 @@
     font-size: var(--font-size-small);
 }
 
+.team-member {
+    position: relative;
+}
+
+.report-download-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #6b7280;
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.report-download-btn:hover {
+    color: #3b82f6;
+    background-color: rgba(59, 130, 246, 0.1);
+    transform: translateY(-2px);
+}
+
 @media (max-width: 360px) {
     .team-grid {
         display: grid;

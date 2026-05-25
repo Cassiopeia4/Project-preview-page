@@ -18,43 +18,50 @@
       "id": 0,
       "name": "Kacper Dąbrowski",
       "roles": ["Koordynator"],
-      "description": "Nadzór przebiegu prac w projekcie, umawianie spotkań"
+      "description": "Nadzór przebiegu prac w projekcie, umawianie spotkań",
+      "reportFile": null
     },
     {
       "id": 1,
       "name": "Łukasz Szmołda",
       "roles": ["Kierownik", "AI Specialist"],
-      "description": "Tworzenie moułu AI do palikacji"
+      "description": "Tworzenie moułu AI do palikacji",
+      "reportFile": "raport_l_szmolda.pdf"
     },
     {
       "id": 2,
       "name": "Franciszek Kanewski",
       "roles": ["Lead Frontend Developer", "UI/UX Designer"],
-      "description": "Kierowanie aplikacją Frontendową"
+      "description": "Kierowanie aplikacją Frontendową",
+      "reportFile": "raport_f_kanewski.pdf"
     },
     {
       "id": 3,
       "name": "Tomasz Jańczak",
       "roles": ["Frontend Developer", "UI/UX Designer"],
-      "description": ""
+      "description": "",
+      "reportFile": "raport_t_janczak.pdf"
     },
     {
       "id": 4,
       "name": "Jakub Kwiatkowski",
       "roles": ["Lead Backend Developer"],
-      "description": "Kierowanie aplikacją Backendową"
+      "description": "Kierowanie aplikacją Backendową",
+      "reportFile": "raport_j_kwiatkowski.pdf"
     },
     {
       "id": 5,
       "name": "Kacper Smolarczyk",
       "roles": ["DevOps","Backend Developer"],
-      "description": ""
+      "description": "",
+      "reportFile": "raport_k_smolarczyk.pdf"
     },
     {
       "id": 6,
       "name": "Krzysztof Cacko",
       "roles": ["Backend Developer"],
-      "description": ""
+      "description": "",
+      "reportFile": "raport_k_cacko.pdf"
     }
   ],
   "meetings": [
@@ -210,7 +217,7 @@
     "sections": [
       {
         "title": "Dokumentacja Backend",
-        "file": "docs/backend_doc.pdf"
+        "file": "backend_doc.pdf"
       },
       {
         "title": "Dokumentacja Frontend",
