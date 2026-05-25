@@ -7,9 +7,10 @@
       "Kompleksowa ewidencja zwierząt i ich właścicieli",
       "Nowoczesny system umawiania wizyt",
       "Cyfrowa dokumentacja medyczna",
-      "Moduły finansowe i fakturowanie",
-      "Zintegrowany system umawianai wizyt",
-      "Raporty i analityka biznesowa"
+      "Moduły finansowe i fakturowanie *",
+      "Zintegrowany system umawianai wizyt *",
+      "Raporty i analityka biznesowa *",
+      "Analiza danych AI *"
     ]
   },
   "team": [
@@ -22,13 +23,13 @@
     {
       "id": 1,
       "name": "Łukasz Szmołda",
-      "roles": ["Kierownik", "Backend Developer"],
+      "roles": ["Kierownik", "AI Specialist"],
       "description": ""
     },
     {
       "id": 2,
       "name": "Franciszek Kanewski",
-      "roles": ["Lead Frontend Developer", "UI/UX Designer", "Backend Developer"],
+      "roles": ["Lead Frontend Developer", "UI/UX Designer"],
       "description": ""
     },
     {
@@ -46,13 +47,13 @@
     {
       "id": 5,
       "name": "Kacper Smolarczyk",
-      "roles": ["Backend Developer"],
+      "roles": ["DevOps","Backend Developer"],
       "description": ""
     },
     {
       "id": 6,
       "name": "Krzysztof Cacko",
-      "roles": ["Fullstack Developer"],
+      "roles": ["Backend Developer"],
       "description": ""
     }
   ],
@@ -133,6 +134,17 @@
     },
     {
       "id": 8,
+      "date": "2025-01-23",
+      "title": "Spotkanie stacjonarne",
+      "tasks": [
+        "Omówienie i wporwadzenie do dev-opsa",
+        "Przydzielenie kolejnych zadań",
+        "Wybór rozwiązania do funkcjonalności terminarza"
+      ],
+      "duration": "70 min."
+    },
+    {
+      "id": 9,
       "date": "2025-01-23",
       "title": "Spotkanie stacjonarne",
       "tasks": [
