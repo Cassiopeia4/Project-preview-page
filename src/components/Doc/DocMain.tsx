@@ -1,5 +1,5 @@
-import {useProjectData} from "../../contexts/DataContext.tsx";
-import {Loading} from "../Loading/Loading.tsx";
+import { useProjectData } from "../../contexts/DataContext.tsx";
+import { Loading } from "../Loading/Loading.tsx";
 
 import './DocMain.css'
 
@@ -37,11 +37,30 @@ export const DocMain = () => {
                                     color: 'var(--text-primary)',
                                     marginBottom: '4px'
                                 }}>
-                                    {section}
+                                    {section.title}
                                 </h4>
-                                <p className="small" style={{ color: 'var(--text-secondary)' }}>
-                                    Wkrótce dostępne
-                                </p>
+                                
+                                {/* Warunkowe renderowanie pobierania lub tekstu zastępczego */}
+                                {section.file ? (
+                                    <a 
+                                        href={section.file} 
+                                        download={`${section.title.replace(/\s+/g, '_')}.pdf`}
+                                        target="_blank" 
+                                        className="small" 
+                                        style={{ 
+                                            color: 'var(--text-primary)', 
+                                            textDecoration: 'underline',
+                                            cursor: 'pointer',
+                                            fontWeight: '500'
+                                        }}
+                                    >
+                                        Pobierz
+                                    </a>
+                                ) : (
+                                    <p className="small" style={{ color: 'var(--text-secondary)' }}>
+                                        Wkrótce dostępne
+                                    </p>
+                                )}
                             </div>
                         ))}
                     </div>

@@ -24,13 +24,13 @@
       "id": 1,
       "name": "Łukasz Szmołda",
       "roles": ["Kierownik", "AI Specialist"],
-      "description": ""
+      "description": "Tworzenie moułu AI do palikacji"
     },
     {
       "id": 2,
       "name": "Franciszek Kanewski",
       "roles": ["Lead Frontend Developer", "UI/UX Designer"],
-      "description": ""
+      "description": "Kierowanie aplikacją Frontendową"
     },
     {
       "id": 3,
@@ -42,7 +42,7 @@
       "id": 4,
       "name": "Jakub Kwiatkowski",
       "roles": ["Lead Backend Developer"],
-      "description": ""
+      "description": "Kierowanie aplikacją Backendową"
     },
     {
       "id": 5,
@@ -145,23 +145,77 @@
     },
     {
       "id": 9,
-      "date": "2025-01-23",
-      "title": "Spotkanie stacjonarne",
+      "date": "2025-01-30",
+      "title": "Przygotowywanie do semestralengo raportu",
       "tasks": [
-        "Omówienie i wporwadzenie do dev-opsa",
-        "Przydzielenie kolejnych zadań",
-        "Wybór rozwiązania do funkcjonalności terminarza"
+        "Przygotowywanie raportów indywidułalnych",
+        "Przygotowywanie dama aplikacji"
       ],
       "duration": "70 min."
+    },
+    {
+      "id": 10,
+      "date": "2025-02-16",
+      "title": "Spotkanie zdalne",
+      "tasks": [
+        "Omówienie postępów projektu",
+        "Przydzielenie kolejnych zadań"
+      ],
+      "duration": "30 min."
+    },
+    {
+      "id": 11,
+      "date": "2025-04-10",
+      "title": "Spotkanie zdalne",
+      "tasks": [
+        "Omówienie postępów projektu",
+        "Przydzielenie kolejnych zadań",
+        "Omówienie dodanego code review AI"
+      ],
+      "duration": "30 min."
+    },
+    {
+      "id": 12,
+      "date": "2025-05-07",
+      "title": "Spotkanie zdalne",
+      "tasks": [
+        "Przedstawienie pierwszego dema projektu",
+        "Ustalenie dolszego planu na rozwój aplikacji"
+      ],
+      "duration": "60 min."
+    },
+    {
+      "id": 12,
+      "date": "2025-05-11",
+      "title": "Spotkanie zdalne",
+      "tasks": [
+        "Przedstawienie dema projektu",
+        "Ustalenie dolszego planu na rozwój aplikacji"
+      ],
+      "duration": "60 min."
+    },
+    {
+      "id": 13,
+      "date": "2025-05-19",
+      "title": "Spotkanie zdalne",
+      "tasks": [
+        "Ustalenie dolszego planu na rozwój aplikacji",
+        "Ustalenie wstępnego planu na prezentacje"
+      ],
+      "duration": "80 min."
     }
   ],
   "documentation": {
     "description": "Sekcja dokumentacji projektu będzie uzupełniana w trakcie realizacji projektu.",
     "sections": [
-      "Instrukcja użytkownika",
-      "Przewodnik wdrożeniowy",
-      "Wymagania funkcjonalne",
-      "Dokumentacja API"
+      {
+        "title": "Dokumentacja Backend",
+        "file": "docs/backend_doc.pdf"
+      },
+      {
+        "title": "Dokumentacja Frontend",
+        "file": null
+      }
     ]
   }
 }
